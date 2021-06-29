@@ -1,23 +1,16 @@
 {
-  "name": "my-vuepress",
+  "name": "vuepress-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "CloudBase Framework VuePress Example",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "deploy": "cloudbase framework deploy"
   },
-  "keywords": [],
-  "author": "",
+  "author": "BookerZhao",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.8.2",
-    "@vuepress/plugin-nprogress": "^1.8.2",
-    "@vuepress/plugin-pwa": "^1.8.2",
-    "echarts": "^5.1.2",
-    "element-ui": "^2.15.2",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.5.0"
   }
 }
